@@ -166,14 +166,3 @@ function arregloAleatorio(tam,arreglOriginal){
     }
     return nuevoArreglo;
 }
-
-
-function guardarDatos(){
-    let nombre= document.getElementById("nombre").value;
-    nombre= JSON.stringify(nombre);
-
-    localStorage.setItem("nombre",nombre);
-    alert("Datos gurdados")
-    window.open("main.html", "_self")
-
-}
