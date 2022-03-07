@@ -1,0 +1,74 @@
+/* Estilos para la pantalla de Inicio */
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('/multimedia/images/fondoPrincipal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.contenedor{
+    height: 100%;
+    align-content: center;
+}
+
+/* Cuadro de texto */
+.recuadro{
+    height: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecera-recuadro{
+    border-bottom: 3px solid black;
+    text-align: center;
+    color: white;
+}
+
+.form-control{
+    font-size: 30px;
+}
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+/* Estilos del boton PLAY */
+.boton-play{
+    color: black;
+    background-color: #FFC312;
+    width: 280px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.boton-play:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Caracteristicas del  gif*/
+.ralphGif{
+    /* float: left; */
+    width: 270px;
+    height: 350px;
+}
+
+/* Colocando el gif dentro del canvas */
+#lienzo{
+    background-image: url('/multimedia/images/ralphGif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
