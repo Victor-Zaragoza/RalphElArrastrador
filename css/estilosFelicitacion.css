@@ -1,0 +1,51 @@
+body{
+    background-image: url('/multimedia/images/fondoPrincipal.jpg');
+    background-size: 125%;
+    background-repeat: no-repeat;
+    font-family: 'Arcade Normal', sans-serif;
+    font-size: 40px;
+    color: #FFC312;
+}
+#tex{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+
+}
+#img img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 370px;
+    left: 200px;
+}
+#tec{
+    position: absolute;
+    top: 380px;
+    left: 1300px;
+    color: tomato;
+    font-size: 25px;
+}
+#NameUser{
+    position: absolute;
+    top: 380px;
+    left: 850px;
+    color: white;
+}
+#star{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 250px;
+    left: 430px;
+}
+.boton-play{
+    color: black;
+    background-color: #FFC312;
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    font-size: 30px;
+    top: 250px;
+    left: 430px;
+}

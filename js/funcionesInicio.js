@@ -28,7 +28,6 @@ function guardarDatos(){
     nombre= JSON.stringify(nombre);
 
     localStorage.setItem("nombre",nombre);
-    alert("Datos gurdados")
     window.open("../main.html", "_self");
     // window.open("main.html", "_self");
 
