@@ -3,13 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-    background-image: url('/multimedia/fondoPrincipal.jpg');
+    background-image: url('/multimedia/images/fondoPrincipal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
 }
-
 .contenedor{
     height: 100%;
     align-content: center;
@@ -68,7 +67,11 @@ html,body{
 
 /* Colocando el gif dentro del canvas */
 #lienzo{
-    background-image: url('/multimedia/ralphGif.gif');
+    background-image: url('/multimedia/images/ralphGif.gif');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.modal {
+    text-align: center;
 }
