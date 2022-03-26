@@ -2,7 +2,7 @@
 
 //Se carga al abrir la pantalla y reproduce el sonido
 function sonido(){
-    const inicio= cargarSonido("../multimedia/sound/sonido.mp3"); 
+    const inicio= cargarSonido("multimedia/sound/sonido.mp3"); 
     inicio.play();
 }
 
@@ -28,7 +28,7 @@ function guardarDatos(){
     nombre= JSON.stringify(nombre);
 
     localStorage.setItem("nombre",nombre);
-    window.open("../main.html", "_self");
+    window.open("./main.html", "_self");
 
 }
 

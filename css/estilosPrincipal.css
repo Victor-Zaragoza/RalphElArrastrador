@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-    background-image: url('/multimedia/images/fondoPrincipal.jpg');
+    background-image: url('../multimedia/images/fondoPrincipal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -67,7 +67,7 @@ html,body{
 
 /* Colocando el gif dentro del canvas */
 #lienzo{
-    background-image: url('/multimedia/images/ralphGif.gif');
+    background-image: url('../multimedia/images/ralphGif.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }

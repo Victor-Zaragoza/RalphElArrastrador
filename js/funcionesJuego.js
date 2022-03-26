@@ -2,85 +2,85 @@
 const arreglOriginal = [
   {
     animal: "Abeja",
-    imagenAnimal: "/multimedia/images/abeja.png",
+    imagenAnimal: "multimedia/images/abeja.png",
     imagenHabitat: "h-abeja.png",
-    audioCorrecto: "/multimedia/sound/s-abeja.mp3",
+    audioCorrecto: "./multimedia/sound/s-abeja.mp3",
   },
   {
     animal: "Lobo",
-    imagenAnimal: "/multimedia/images/lobo.png",
+    imagenAnimal: "multimedia/images/lobo.png",
     imagenHabitat: "h-lobo.png",
     audioCorrecto: "multimedia/sound/s-lobo.mp3",
   },
   {
     animal: "Mono",
-    imagenAnimal: "/multimedia/images/mono.png",
+    imagenAnimal:  "multimedia/images/mono.png",
     imagenHabitat: "h-mono.png",
-    audioCorrecto: "/multimedia/sound/s-mono.wav",
+    audioCorrecto: "multimedia/sound/s-mono.wav",
   },
   {
     animal: "Pingüino",
-    imagenAnimal: "/multimedia/images/pinguino.png",
+    imagenAnimal: "multimedia/images/pinguino.png",
     imagenHabitat: "h-pinguino.png",
     audioCorrecto: "multimedia/sound/s-pinguino.mp3",
   },
   {
     animal: "León",
-    imagenAnimal: "/multimedia/images/leon.png",
+    imagenAnimal: "multimedia/images/leon.png",
     imagenHabitat: "h-leon.png",
-    audioCorrecto: "/multimedia/sound/s-leon.mp3",
+    audioCorrecto: "multimedia/sound/s-leon.mp3",
   },
   {
     animal: "Panda",
-    imagenAnimal: "/multimedia/images/panda.png",
+    imagenAnimal: "multimedia/images/panda.png",
     imagenHabitat: "h-panda.png",
     audioCorrecto: "multimedia/sound/s-panda.mp3",
   },
   {
     animal: "Tiburón",
-    imagenAnimal: "/multimedia/images/tiburon.png",
+    imagenAnimal: "multimedia/images/tiburon.png",
     imagenHabitat: "h-tiburon.png",
     audioCorrecto: "multimedia/sound/s-tiburon.mp3",
   },
   {
     animal: "Caballo",
-    imagenAnimal: "/multimedia/images/caballo.png",
+    imagenAnimal: "multimedia/images/caballo.png",
     imagenHabitat: "h-caballo.png",
     audioCorrecto: "multimedia/sound/s-caballo.mp3",
   },
   {
     animal: "Rana",
-    imagenAnimal: "/multimedia/images/rana.png",
+    imagenAnimal: "multimedia/images/rana.png",
     imagenHabitat: "h-rana.png",
     audioCorrecto: "multimedia/sound/s-rana.mp3",
   },
   {
     animal: "Camello",
-    imagenAnimal: "/multimedia/images/camello.png",
+    imagenAnimal: "multimedia/images/camello.png",
     imagenHabitat: "h-camello.png",
     audioCorrecto: "multimedia/sound/s-camello.mp3",
   },
   {
     animal: "Vaca",
-    imagenAnimal: "/multimedia/images/vaca.png",
+    imagenAnimal: "multimedia/images/vaca.png",
     imagenHabitat: "h-vaca.png",
-    audioCorrecto: "/multimedia/sound/s-vaca.mp3",
+    audioCorrecto: "multimedia/sound/s-vaca.mp3",
   },
   {
     animal: "Pez",
-    imagenAnimal: "/multimedia/images/pez.png",
+    imagenAnimal: "multimedia/images/pez.png",
     imagenHabitat: "h-pez.png",
-    audioCorrecto: "/multimedia/sound/s-pez.mp3",
+    audioCorrecto: "multimedia/sound/s-pez.mp3",
   },
   {
     animal: "Tucán",
-    imagenAnimal: "/multimedia/images/tucan.png",
+    imagenAnimal: "multimedia/images/tucan.png",
     imagenHabitat: "h-tucan.png",
     audioCorrecto: "multimedia/sound/s-jungla.mp3",
   },
   {
     animal: "Cocodrilo",
-    imagenAnimal: "/multimedia/images/cocodrilo.png",
+    imagenAnimal: "multimedia/images/cocodrilo.png",
     imagenHabitat: "h-cocodrilo.png",
     audioCorrecto: "multimedia/sound/s-cocodrilo.mp3",
   },
@@ -162,12 +162,12 @@ function soltado(e) {
     }
     if (puntuacion == 6) {
       //Mostrar pantalla de felicitación
-      window.open("../felicitacion.html", "_self");
+      window.open("./felicitacion.html", "_self");
         
     }
   } else {
     //Reproducir sonido error.
-    reproducirSonido("/multimedia/sound/error.wav");
+    reproducirSonido("multimedia/sound/error.wav");
   }
 
   //Quitar estilos aplicados al habitat
@@ -235,7 +235,7 @@ function controlJuego(animales, habitats) {
     clase: soltar
   */
   for (var i = 0; i < habitats.length; i++) {
-    var url = "url('/multimedia/images/" + habitats[i].imagenHabitat + "')";
+    var url = "url('multimedia/images/" + habitats[i].imagenHabitat + "')";
     cajaDeHabitats.insertAdjacentHTML(
       "beforeend",
       '<div class="soltar" style="background-image: ' +

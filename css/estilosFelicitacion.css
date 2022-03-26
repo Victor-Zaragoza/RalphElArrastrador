@@ -1,5 +1,5 @@
 body{
-    background-image: url('/multimedia/images/fondoPrincipal.jpg');
+    background-image: url('../multimedia/images/fondoPrincipal.jpg');
     background-size: 125%;
     background-repeat: no-repeat;
     font-family: 'Arcade Normal', sans-serif;

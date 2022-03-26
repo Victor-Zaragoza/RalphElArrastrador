@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-    background-image: url('/multimedia/images/fondoPrincipal.jpg');
+    background-image: url('../multimedia/images/fondoPrincipal.jpg');
     background-size:auto;
     /* background-size: 125%; */
     background-repeat: no-repeat;
